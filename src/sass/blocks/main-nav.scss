@@ -1,0 +1,51 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 16px 20px;
+}
+
+.main-nav__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item {
+  padding-right: 31px;
+}
+
+
+.main-nav__link {
+  color: #818181;
+  font-size: 14px;
+
+  &:hover {
+    color: #ffffff;
+  }
+}
+
+.main-nav__address {
+  position: relative;
+  padding: 0 0 0 20px;
+  color: #818181;
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 4px;
+    left: 4px;
+    width: 7px;
+    height: 11px;
+    background: url("/img/map-marker-1@1x.png") no-repeat;
+  }
+
+  &:hover {
+    color: #ffffff;
+  }
+}
