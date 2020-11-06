@@ -23,7 +23,6 @@
 }
 
 .page-header__leftColumn {
-
 	display: flex;
 }
 
@@ -127,6 +126,29 @@
 	font-weight: 700;
 	text-transform: uppercase;
 
+	&:hover .page-header__lines {
+		&::before {
+			position: absolute;
+			content: "";
+			background-color: #f89ec6;
+		}
+	
+		&::after {
+			position: absolute;
+			content: "";
+			background-color: #f89ec6;
+		}
+	}
+
+	&:hover .page-header__lines--line4-3 {
+		&::before {
+			background-color: transparent;
+			border: 2px solid #f89ec6;
+		}
+	}
+}
+
+.page-header__lines {
 	&::before {
 		position: absolute;
 		content: "";
@@ -140,7 +162,7 @@
 	}
 }
 
-.page-header__link--logo11 {
+.page-header__lines--line1-1 {
 	&::before {
 		top: -4px;
 		left: -41px;
@@ -156,32 +178,32 @@
 	}
 }
 
-.page-header__link--logo12 {
+.page-header__lines--line1-2 {
 	&::before {
 		top: -4px;
-		left: -72px;
+		left: -30px;
 		width: 2px;
 		height: 28px;
 	}
 
 	&::after {
 		top: -4px;
-    left: -83px;
+    left: -41px;
 		width: 24px;
 		height: 2px;
 	}
 }
 
-.page-header__link--logo13 {
+.page-header__lines--line1-3 {
 	&::before {
 		top: 22px;
-    left: -83px;
+    left: -41px;
 		width: 24px;
 		height: 2px;
 	}
 }
 
-.page-header__link--logo21 {
+.page-header__lines--line2-1 {
 	&::before {
 		top: -4px;
 		left: -31px;
@@ -197,23 +219,23 @@
 	}
 }
 
-.page-header__link--logo22 {
+.page-header__lines--line2-2 {
 	&::before {
 		top: -4px;
-		left: -84px;
+		left: -31px;
 		width: 16px;
 		height: 2px;
 	}
 
 	&::after {
 		top: 22px;
-    left: -84px;
+    left: -31px;
 		width: 16px;
 		height: 2px;
 	}
 }
 
-.page-header__link--logo31 {
+.page-header__lines--line3-1 {
 	&::before {
 		top: -4px;
 		left: -55px;
@@ -229,39 +251,39 @@
 	}
 }
 
-.page-header__link--logo32 {
+.page-header__lines--line3-2 {
 	&::before {
 		top: -4px;
-		left: -120px;
+		left: -43px;
 		width: 2px;
 		height: 28px;
 	}
 
 	&::after {
 		top: -4px;
-		left: -109px;
+		left: -32px;
 		width: 2px;
 		height: 28px;
 	}
 }
 
-.page-header__link--logo33 {
+.page-header__lines--line3-3 {
 	&::before {
 		top: -4px;
-		left: -132px;
+		left: -55px;
 		width: 36px;
 		height: 2px;
 	}
 
 	&::after {
 		top: 22px;
-    left: -132px;
+    left: -55px;
 		width: 36px;
 		height: 2px;
 	}
 }
 
-.page-header__link--logo41 {
+.page-header__lines--line4-1 {
 	&::before {
 		top: -4px;
 		left: -46px;
@@ -277,26 +299,26 @@
 	}
 }
 
-.page-header__link--logo42 {
+.page-header__lines--line4-2 {
 	&::before {
 		top: -4px;
-		left: -104px;
+		left: -45px;
 		width: 27px;
 		height: 2px;
 	}
 
 	&::after {
 		top: 22px;
-    left: -104px;
+    left: -45px;
     width: 36px;
 		height: 2px;
 	}
 }
 
-.page-header__link--logo43 {
+.page-header__lines--line4-3 {
 	&::before {
 		top: 1px;
-    left: -100px;
+    left: -41px;
 		width: 19px;
 		height: 18px;
 		background-color: transparent;
@@ -306,13 +328,13 @@
 
 	&::after {
 		top: 22px;
-    left: -71px;
-    width: 3px;
+    left: -11px;
+    width: 2px;
 		height: 4px;
 	}
 }
 
-.page-header__link--logo51 {
+.page-header__lines--line5-1 {
 	&::before {
 		top: -4px;
 		left: -41px;
@@ -328,58 +350,58 @@
 	}
 }
 
-.page-header__link--logo52 {
+.page-header__lines--line5-2 {
 	&::before {
 		top: -4px;
-		left: -190px;
+		left: -41px;
 		width: 14px;
 		height: 2px;
 	}
 
 	&::after {
 		top: 22px;
-    left: -190px;
+    left: -41px;
 		width: 14px;
 		height: 2px;
 	}
 }
 
-.page-header__link--logo53 {
+.page-header__lines--line5-3 {
 	&::before {
 		top: 4px;
-    left: -184px;
+    left: -36px;
 		width: 17px;
 		height: 2px;
 	}
 
 	&::after {
 		top: 9px;
-    left: -184px;
+    left: -36px;
 		width: 17px;
 		height: 2px;
 	}
 }
 
-.page-header__link--logo54 {
+.page-header__lines--line5-4 {
 	&::before {
 		top: 4px;
-    left: -184px;
-		width: 3px;
+    left: -36px;
+		width: 2px;
 		height: 6px;
 	}
 
 	&::after {
 		top: 4px;
-    left: -170px;
-		width: 3px;
+    left: -21px;
+		width: 2px;
 		height: 6px;
 	}
 }
 
-.page-header__link--logo55 {
+.page-header__lines--line5-5 {
 	&::before {
 		top: 11px;
-    left: -178px;
+    left: -29px;
     width: 2px;
     height: 13px;
 	}

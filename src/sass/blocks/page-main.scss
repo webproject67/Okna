@@ -1,0 +1,35 @@
+.page-main__lines {
+  position: relative;
+  display: block;
+  
+  &::before {
+		position: absolute;
+    content: "";
+    width: 100%;
+		border-bottom: 1px solid #eaeaea;
+  } 
+  
+  &::after {
+		position: absolute;
+    content: "";
+    width: 100%;
+		border-bottom: 1px solid #eaeaea;
+	} 
+}
+
+.page-main__lines--line1 {
+  &::before {
+    top: 0;
+  } 
+  
+  &::after {
+    top: 491px;
+	} 
+}
+
+.page-main__lines--line2 {
+  &::before {
+    top: 0;
+  } 
+  
+}

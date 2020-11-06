@@ -1,0 +1,84 @@
+.windows {
+  padding: 46px 0 56px;
+}
+
+.windows__list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 0 20px;
+  list-style: none;
+}
+
+.windows__item {
+  position: relative;
+  width: 218px;
+  margin-top: 20px;
+  padding: 28px 0 0;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+
+  &:hover .windows__hover {
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    display: block;
+  }
+}
+
+.windows__img {
+  padding-bottom: 5px;
+}
+
+.windows__text {
+  padding: 26px 0 14px;
+  font-family: Exo2;
+  color: #545455;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-top: 2px solid #d1528b;
+}
+
+.windows__hover {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.73);
+}
+
+.windows__description {
+  padding: 14px 19px;
+  color: #ffffff;
+  line-height: 20px;
+  text-align: start;
+}
+
+.windows__price {
+  margin: 47px 0 26px;
+  color: #ffffff;
+  line-height: 20px;
+}
+
+.windows__price--font-size {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.windows__btn {
+  padding: 9px 41px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 6px;
+  background-color: #ce4180;
+
+  &:hover {
+		background-color: #f19bc1;
+	}
+}
