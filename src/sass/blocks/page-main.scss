@@ -31,5 +31,24 @@
   &::before {
     top: 0;
   } 
-  
+
+  &::after {
+    top: 399px;
+	} 
+}
+
+.page-main__lines--line3 {
+  &::before {
+    top: 0;
+  } 
+
+  &::after {
+    top: 531px;
+	} 
+}
+
+.page-main__lines--line4 {
+  &::before {
+    top: 0;
+  } 
 }

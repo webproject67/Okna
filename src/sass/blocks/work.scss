@@ -1,0 +1,39 @@
+.work {
+  position: relative;
+  max-width: 1240px;
+	margin: 0 auto;
+	padding: 35px 20px 56px;
+}
+
+.work__title {
+  font-family: Exo2;
+  color: #545455;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.work__list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1142px;
+  margin: 0 auto;
+  padding: 12px 0 0;
+  list-style: none;
+}
+
+.work__btn {
+  position: absolute;
+  top: 54%;
+  background-color: transparent;
+  border: none;
+
+  &--left {
+    left: 15px;
+  }
+  
+  &--right {
+    right: 15px;
+    transform: rotate(180deg);
+  }
+}

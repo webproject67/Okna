@@ -1,0 +1,31 @@
+.partners  {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1275px;
+	margin: 0 auto;
+	padding: 33px 20px 13px;
+}
+
+.partners__title {
+  font-family: Exo2;
+  color: #545455;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.partners__text {
+  max-width: 599px;
+  padding: 14px 0;
+  line-height: 22px;
+}
+
+.partners__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 572px;
+  margin: 0;
+  padding: 39px 0 0;
+  list-style: none;
+}

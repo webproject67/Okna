@@ -1,0 +1,45 @@
+.texts {
+  max-width: 1240px;
+	margin: 0 auto;
+	padding: 17px 20px 35px;
+}
+
+.texts__title {
+  position: relative;
+  max-width: 1045px;
+  padding-left: 30px;
+  font-family: Exo2;
+  color: #545455;
+  font-size: 40px;
+  font-weight: 400;
+
+  &::before {
+		position: absolute;
+		content: "";
+		top: 10px;
+		left: 0;
+		width: 3px;
+    height: 76px;
+    background-color: #cd3378;
+	}
+}
+
+.texts__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.texts__item {
+  max-width: 600px;
+}
+
+.texts__item:first-child {
+  margin-right: 30px
+}
+
+
+.texts__text {
+  line-height: 22px;
+}
