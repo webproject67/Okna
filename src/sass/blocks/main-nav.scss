@@ -43,6 +43,11 @@
     width: 7px;
     height: 11px;
     background: url("/img/map-marker-1@1x.png") no-repeat;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("/img/map-marker-1@2x.png");
+      background-size: 7px auto;
+    }
   }
 
   &:hover {
