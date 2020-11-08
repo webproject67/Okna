@@ -1,0 +1,15 @@
+.scroll {
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  opacity: 0;
+  transition: 1s;
+}
+
+.scroll--opacity {
+  opacity: 1;
+}
+
+.scroll--top {
+  fill: #000000;
+}

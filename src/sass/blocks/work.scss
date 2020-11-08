@@ -24,6 +24,11 @@
 
 .work__img {
   min-width: 209px;
+  transition: all ease-out 0.5s;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 
 .work__button {
