@@ -1,0 +1,41 @@
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 25px 20px 34px;
+}
+
+.page-footer__logo,
+.page-footer__text,
+.page-footer__link,
+.page-footer__tel,
+.page-footer__address,
+.page-footer__email {
+  color: #b8b8b8;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.page-footer__link,
+.page-footer__tel,
+.page-footer__email {
+  line-height: 0;
+
+  &:hover {
+    color: #000000;
+  }
+}
+
+.page-footer__rightColumn {
+  text-align: end;
+}
+
+.page-footer__tel {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.page-footer__address {
+  margin: 8px 0;
+}
