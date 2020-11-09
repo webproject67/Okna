@@ -40,6 +40,7 @@
   top: 54%;
   background-color: transparent;
   border: none;
+  transition: all 0.4s ease;
 
   &--left {
     left: 15px;
@@ -48,5 +49,13 @@
   &--right {
     right: 15px;
     transform: rotate(180deg);
+  }
+
+  &--left:hover {
+    left: 10px;
+  }
+
+  &--right:hover {
+    right: 10px;
   }
 }
